@@ -1,6 +1,6 @@
 module github.com/VixsTy/grimoire
 
-go 1.12
+go 1.14
 
 require (
 	github.com/fatih/color v1.7.0

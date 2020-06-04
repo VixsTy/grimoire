@@ -27,5 +27,5 @@ func (Go) Vendor() error {
 // Tools spell will build a binarie for all tools
 func (Go) Tools() error {
 	color.Blue("## Intalling tools")
-	return sh.RunV("go", "run", "github.com/izumin5210/gex/cmd/gex", "--build")
+	return sh.RunV("go", "run", "-mod=mod", "github.com/izumin5210/gex/cmd/gex", "--build")
 }
